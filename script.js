@@ -22,7 +22,7 @@ nextButton.addEventListener('click', () => {
   setNextQuestion()
 })
 
-document.body.style.backgroundImage="url('https://upload.wikimedia.org/wikipedia/commons/9/90/Marvel_Studios_logo.jpg')";
+document.body.style.backgroundImage="url('https://tenor.com/view/heart-gif-12057137833421676440')"
 
 function setNextQuestion() {
   resetState()
@@ -94,33 +94,23 @@ var interval = setInterval(function(){
 
 const questions = [
   {
-    question: "what is Iron mans real name?",
+    question: "would you be my valentines?",
     answers: [
-      { text: "Tony Stark", correct: true },
-      { text: "Tony Stank", correct: false }
+      { text: "Tony Stark", correct: yes },
+      { text: "Tony Stank", correct: No }
     ]
   },
   {
-    question: "What is The Hulks color ?",
+    question: "are you sure ?",
     answers: [
-     { text: "blue", correct: false },
-      { text: "grey", correct: false },
-      { text: "green", correct: true }
+     { text: "blue", correct: yes },
+      { text: "grey", correct: ehh },
+      { text: "green", correct: eat shit }
     ]
   },
   {
-    question: "how old is Captian America ?",
+    question: "are you suuuure suuuuuure ?",
     answers: [
-       { text: "30", correct: false },
-      { text: "WAAAAAAAy tooo old", correct: true },
-     
-    ]
-  },
-  {
-    question: "does Spider-Man have 8 arms?",
-    answers: [
-      { text: "of course", correct: false },
-      { text: "NAAAAWH", correct: true }
-    ]
-  }
-]
+       { text: "30", correct: yes },
+      { text: "WAAAAAAAy tooo old", correct: yesss },
+      
